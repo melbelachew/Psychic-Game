@@ -1,1 +1,9 @@
-body { margin: 50px}
+body {
+background-image: url("/assets/images/jose-antonio-gallego-vazquez-431522-unsplash.jpg");
+background-size: cover;
+background-position: fixed
+}
+
+#content {
+    margin: 100px
+}

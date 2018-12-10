@@ -1,24 +1,35 @@
-<html>
+<html lang="en-us">
+
 <head>
 <meta charset="utf-8">
 <title>Psychic Game</title>
-
-<link rel="style.css" src="./assets/css/style.css"></link>
-
-<script type="text/javascript" src="./assets/javascript/game.js"></script>
-
+<!-- <link rel="stylesheet" href="./assets/css/reset.css"></link> -->
+<!-- <link href="../Psychic-Game/assets/css/style.css"> </link>  -->
+<style> body {
+        background-image: url("./assets/images/jose-antonio-gallego-vazquez-431522-unsplash.jpg");
+        background-size: cover;
+        background-position: fixed
+        }
+        
+        #content {
+            text-align: left;
+            background-color: bisque; opacity: .80;
+            margin: 200px;
+            font: bold;
+        }</style>
 </head>
 <body>
-
-    <div id = Guess>
+        <div id="content">
         <h1>The Psychic Game</h1>
+        <!-- <img id = image; src="./assets/images/jose-antonio-gallego-vazquez-431522-unsplash.jpg" alt="background"> -->
         <p>Guess what letter I'm thinking of</p>
-        <p>Wins:</p>
-        <p>Losses: </p>
-        <p>Gueses Left: </p>
-        <p>Your Guesses so far:</p>
-    </div>
 
+        <p>Wins: <span id ="Wins">0</span></p>
+        <p>Losses: <span id ="losses">0</span></p>
+        <p>Guesses Left: <span id = "guesses-left"></span></p>
+        <p>Your Guesses so far:<span id = "guesses-so-far"></span></p>
+    </div>
+        <script type="text/javascript" src="./assets/javascript/game.js"></script>
 
 </body>
 </html>
